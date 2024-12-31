@@ -22,11 +22,13 @@ language: es
 #     threshold: 0.3  # Confianza mínima para entender
 #     ambiguity_threshold: 0.1  # Manejo de ambigüedad
 
-# policies:
-#   - name: RulePolicy
-#     core_fallback_action_name: "action_default_fallback"
-#     core_fallback_threshold: 0.3
-#     enable_fallback_prediction: True
+# config.yml
+policies:
+  - name: RulePolicy
+    core_fallback_action_name: "action_default_fallback"
+    core_fallback_threshold: 0.3
+    enable_fallback_prediction: True
+
 
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
