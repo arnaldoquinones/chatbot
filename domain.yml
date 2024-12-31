@@ -33,6 +33,10 @@ responses:
     - text: "Mucho gusto, soy Arnaldo, Data Scientist y profesor de Análisis de Datos. ¿En qué puedo asistirte?"
     - text: "Encantado de conocerte, soy Arnaldo, Data Scientist y apasionado por el análisis de datos. ¿En qué puedo colaborar contigo?"
 
+
+  utter_default:
+    - text: "Disculpa, pero no entiendo lo que me preguntas. ¿Podrías reformularlo?"
+
   utter_despedida:
     - text: "¡Gracias por tu tiempo! Si necesitas más información, no dudes en preguntar. ¡Cuídate!"
     - text: "¡Hasta luego! Si tienes más preguntas, estaré aquí para ayudarte. ¡Nos vemos pronto!"
