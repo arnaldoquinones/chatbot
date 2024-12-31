@@ -1,0 +1,107 @@
+version: "3.0"
+nlu:
+  - intent: preguntar_experiencia
+    examples: |
+      - ¿Dónde trabajaste anteriormente?
+      - Cuéntame sobre tu experiencia laboral.
+      - ¿Cómo ha sido tu trayectoria profesional?
+      - ¿En qué empresas has trabajado?
+      - ¿Qué puestos has ocupado en el pasado?
+      - ¿En qué área te especializas?
+      - ¿Cuánto tiempo trabajaste en el sector bancario?
+      - ¿Qué responsabilidades tenías en tu último puesto?
+      - ¿Qué logros destacas de tu experiencia laboral?
+      - ¿Cómo contribuiste a los proyectos que lideraste?
+
+  - intent: preguntar_habilidades
+    examples: |
+      - ¿Qué habilidades tienes?
+      - ¿Con qué herramientas trabajas?
+      - ¿Qué lenguajes de programación manejas?
+      - ¿Eres bueno trabajando con bases de datos?
+      - ¿Conoces SQL y Python?
+      - ¿Tienes experiencia en machine learning?
+      - ¿Qué software de visualización utilizas?
+      - ¿Cuáles son tus fortalezas en el análisis de datos?
+      - ¿Dominas Power BI?
+      - ¿Sabes trabajar en entornos Cloud?
+
+  - intent: preguntar_proyectos
+    examples: |
+      - ¿Qué proyectos has desarrollado?
+      - ¿Puedes hablarme de un proyecto importante que hayas liderado?
+      - Cuéntame sobre tu proyecto de ciencia de datos.
+      - ¿Tienes experiencia trabajando con proyectos de machine learning?
+      - ¿En qué proyectos usaste Power BI?
+      - ¿Cuál fue tu rol en el proyecto de recomendación de restaurantes?
+      - ¿Qué aprendiste del proyecto de accidentes viales?
+      - ¿Cómo contribuiste al proyecto de Steam?
+      - ¿Qué desafíos enfrentaste en tus proyectos?
+      - ¿Cómo manejaste los datos en tus proyectos?
+
+  - intent: preguntar_formacion
+    examples: |
+      - ¿Dónde estudiaste?
+      - ¿Qué formación académica tienes?
+      - ¿Tienes alguna certificación relevante?
+      - ¿Qué estudios estás cursando actualmente?
+      - ¿Dónde hiciste el Bootcamp en Ciencia de Datos?
+      - ¿En qué universidad estudiaste Administración de Empresas?
+      - ¿Qué porcentaje de avance tienes en tu carrera de Sistemas?
+      - ¿Cuánto tiempo llevas estudiando Ciencias de la Computación?
+      - ¿Tienes alguna especialización?
+      - ¿Qué cursos adicionales has tomado?
+
+  # Añadido para preguntas coloquiales:
+  - intent: saludo
+    examples: |
+      - ¡Hola!
+      - ¿Cómo estás?
+      - ¡Buenos días!
+      - ¿Qué tal?
+      - ¡Hola, ¿cómo va todo?
+      - ¿Cómo te encuentras hoy?
+      - ¡Qué tal, cómo estás?
+      - ¡Qué bueno verte!
+      - ¡Hola, qué tal tu día?
+      - ¡Hey, cómo va todo!
+
+  - intent: despedida
+    examples: |
+      - Adiós
+      - ¡Hasta luego!
+      - ¡Nos vemos!
+      - ¡Que tengas un buen día!
+      - ¡Cuídate!
+      - Hasta pronto
+      - ¡Hasta la próxima!
+      - ¡Chao!
+      - Nos vemos luego
+      - ¡Que estés bien!
+
+  - intent: preguntar_tiempo
+    examples: |
+      - ¿Cómo está el clima hoy?
+      - ¿Hace frío hoy?
+      - ¿Está soleado hoy?
+      - ¿Qué tal el clima en Buenos Aires?
+      - ¿Hace calor hoy?
+      - ¿Va a llover mañana?
+      - ¿Cómo está el tiempo por ahí?
+      - ¿Está nublado hoy?
+      - ¿Está lloviendo?
+      - ¿Cómo está el clima hoy en la ciudad?
+
+  - intent: preguntar_entretenimiento
+    examples: |
+      - ¿Qué series me recomiendas?
+      - ¿Has visto alguna película interesante?
+      - ¿Qué música estás escuchando?
+      - ¿Tienes alguna recomendación de película?
+      - ¿Qué juegos estás jugando?
+      - ¿Te gusta ver deportes?
+      - ¿Qué series estás viendo ahora?
+      - ¿Tienes alguna película favorita?
+      - ¿Te gusta la música de los 80s?
+      - ¿Qué videojuegos te gustan?
+

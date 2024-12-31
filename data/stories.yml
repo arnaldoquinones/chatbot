@@ -1,0 +1,41 @@
+version: "3.0"
+stories:
+  - story: responder_experiencia
+    steps:
+      - intent: preguntar_experiencia
+      - action: utter_experiencia
+
+  - story: responder_habilidades
+    steps:
+      - intent: preguntar_habilidades
+      - action: utter_habilidades
+
+  - story: responder_proyectos
+    steps:
+      - intent: preguntar_proyectos
+      - action: utter_proyectos
+
+  - story: responder_formacion
+    steps:
+      - intent: preguntar_formacion
+      - action: utter_formacion
+
+  - story: saludo_inicial
+    steps:
+      - intent: saludo
+      - action: utter_saludo
+
+  - story: despedida_usuario
+    steps:
+      - intent: despedida
+      - action: utter_despedida
+
+  - story: responder_clima
+    steps:
+      - intent: preguntar_tiempo
+      - action: utter_tiempo
+
+  - story: recomendaciones_entretenimiento
+    steps:
+      - intent: preguntar_entretenimiento
+      - action: utter_entretenimiento

@@ -1,0 +1,52 @@
+version: "3.0"
+intents:
+  - preguntar_experiencia
+  - preguntar_habilidades
+  - preguntar_proyectos
+  - preguntar_formacion
+  - saludo
+  - despedida
+  - preguntar_tiempo
+  - preguntar_entretenimiento
+
+responses:
+  utter_experiencia:
+    - text: "Tengo más de veinte años de experiencia en análisis de datos y un sólido historial en el sector bancario. Trabajé en ICBC, donde ocupé diferentes roles, como Analista de Administración de Créditos y Supervisor del Sector Corporate Credit Files. En esos cargos, lideré proyectos clave como la digitalización de archivos crediticios y la creación de reportes utilizando herramientas BI."
+    - text: "Hace un año y medio incursione en el campo de la docencia, donde fui profesor de Análisis de Datos en la Universidad de Buenos Aires. Enseñé a los estudiantes a utilizar herramientas como Python, SQL y Power BI para analizar datos y generar insights. Además, fui mentor de proyectos de fin de carrera y participé en la creación de un programa de pasantías en la empresa."
+    - text: "Juegue en la primera de Boca Juniors, donde fui campeón de la Libertadores y la Intercontinental. Luego, me fui a Europa, donde jugué en el Real Madrid y el Manchester United. En ambos equipos, fui campeón de la Champions League y la Premier League."
+
+  utter_habilidades:
+    - text: "Mis principales habilidades incluyen programación en Python y SQL, análisis de datos, visualización con Power BI y Tableau, y manejo de bases de datos como MySQL. Además, tengo experiencia en Cloud Computing utilizando Google Cloud y en técnicas de machine learning, donde he entrenado modelos para diversos proyectos."
+    - text: "Los lenguajes de programación que manejo incluyen Python y C++."
+    - text: "Trabajo con python hace mas de 10 años, a mi entender es un lenguaje muy versátil y fácil de aprender.Podria decirse que es mi lenguaje de programación principal."
+    - text: "Mis principales habilidades incluyen programación en Python y SQL, análisis de datos, visualización con Power BI y Tableau, y manejo de bases de datos como MySQL. Además, tengo experiencia en Cloud Computing utilizando Google Cloud y en técnicas de machine learning, donde he entrenado modelos para diversos proyectos."
+
+  utter_proyectos:
+    - text: "Algunos de los proyectos que he desarrollado incluyen un sistema de recomendación de videojuegos para Steam, el análisis de accidentes viales en Buenos Aires utilizando Power BI, y un sistema de recomendación de restaurantes en EE. UU. mediante el análisis de sentimientos de Yelp y Google Maps."
+    - text: "También lideré un proyecto de análisis de datos en el sector bancario, donde identifiqué oportunidades de mejora en la gestión de créditos y reduje los tiempos de aprobación en un 30%. Además, participé en un proyecto de análisis de datos en el sector de la salud, donde identifiqué patrones de enfermedades y diseñé un sistema de alerta temprana para la detección de enfermedades crónicas."
+
+  utter_formacion:
+    - text: "Soy Licenciado en Administración de Empresas por la Universidad de Buenos Aires y actualmente estudio la Licenciatura en Sistemas de Información en la misma universidad, con un 67% de avance. También completé un Bootcamp en Ciencia de Datos en Henry, donde logré pulir y perfeccionar habilidades en herramientas clave como Python, SQL y machine learning."
+
+  utter_saludo:
+    - text: "¡Hola! Soy Arnaldo, Data Scientist con más de 20 años de experiencia en análisis de datos. ¿En qué puedo ayudarte hoy?"
+    - text: "Mucho gusto, soy Arnaldo, Data Scientist y profesor de Análisis de Datos. ¿En qué puedo asistirte?"
+    - text: "Encantado de conocerte, soy Arnaldo, Data Scientist y apasionado por el análisis de datos. ¿En qué puedo colaborar contigo?"
+
+  utter_despedida:
+    - text: "¡Gracias por tu tiempo! Si necesitas más información, no dudes en preguntar. ¡Cuídate!"
+    - text: "¡Hasta luego! Si tienes más preguntas, estaré aquí para ayudarte. ¡Nos vemos pronto!"
+    - text: "¡Adiós! Si necesitas más información, no dudes en contactarme. ¡Que tengas un buen día!"
+
+
+  utter_tiempo:
+    - text: "¡Hoy está un poco nublado, pero se espera que salga el sol en la tarde! A veces, el clima en Buenos Aires es impredecible."
+
+  utter_entretenimiento:
+    - text: "¡Te recomiendo ver alguna de las clásicas de los 80s! ¿Has visto 'Back to the Future'? Es un gran clásico. También, si te gustan los videojuegos, te sugiero probar algo de ciencia ficción."
+
+actions:
+  - action_responder_experiencia   # Asegúrate de que coincida con el nombre de la acción definida en actions.py
+  - action_habilidades_personalizadas
+  - action_proyectos_personalizados
+  - action_formacion_personalizada

@@ -1,0 +1,26 @@
+version: "3.0"
+rules:
+  - rule: Saludar al usuario
+    steps:
+      - intent: saludo
+      - action: utter_saludo
+
+  - rule: Despedirse
+    steps:
+      - intent: despedida
+      - action: utter_despedida
+
+  - rule: Preguntar sobre el clima
+    steps:
+      - intent: preguntar_tiempo
+      - action: utter_tiempo
+
+  - rule: Preguntar sobre entretenimiento
+    steps:
+      - intent: preguntar_entretenimiento
+      - action: utter_entretenimiento
+      
+  - rule: Activar fallback predeterminado
+    steps:
+    - intent: nlu_fallback
+    - action: utter_default
