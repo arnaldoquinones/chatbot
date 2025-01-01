@@ -8,3 +8,5 @@ class ActionDefaultFallback(Action):
     async def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(text="Disculpa, pero no entiendo lo que me preguntas. ¿Podrías reformularlo?")
         return [UserUtteranceReverted()]
+
+
